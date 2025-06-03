@@ -12,7 +12,7 @@ describe('Orange HMR Tests',()=>{
     cy.get("[name='username']").type('Test')
     cy.get("[name='password']").type('Test')
     cy.get("[type='submit']").click()
-    cy.get("[role='alert']")
+    cy.get("[role='alert']")//test
     
     })
   })
